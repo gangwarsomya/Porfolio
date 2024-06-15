@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Somya Gangwar | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <div id="preloader" class="layers">
+      <p>Loading Portfolio...</p>
+      <h2 class="counter">0%</h2>
+    </div>
+    <div class="layers" id="beige"></div>
+    <div class="layers" id="brown"></div>
+    <div class="cursor-dot"></div>
+    <div id="main">
+      <div id="home-page" class="page">
+        <div class="circle home-circle"></div>
+        <header>
+          <div id="logo">
+            <div id="logo-second-circle"></div>
+          </div>
+          <ul class="nav">
+            <li><h6 class="scrollTo-about">About</h6></li>
+            <li><h6 class="scrollTo-skill">What I Know</h6></li>
+            <li><h6 class="scrollTo-projects">Projects</h6></li>
+            <li><h6 class="scrollTo-contact">Get In Touch</h6></li>
+            <li><a href="./somya.pdf" download>Resume</a></li>
+          </ul>
+        </header>
+        <div id="hero-text">
+          <div class="heading-text"><h1>Hi There, I'am</h1></div>
+          <div class="heading-text"><h1>Somya Gangwar</h1></div>
+
+          <h5>
+            A <span class="webdev-underline">Web Developer</span> From Bareilly
+          </h5>
+        </div>
+
+        <div id="scroll-element">
+          <i class="fa-solid fa-arrow-down"></i>
+          <p>Scroll</p>
+        </div>
+      </div>
+      <div id="about-page" class="page">
+        <h1 class="page-heading about-heading">About Me.</h1>
+        <div id="about-content">
+          <div id="about-content-left">
+            <img
+              src="images/my-image.webp"
+              alt="Somya Gangwar's profile photo"
+            />
+          </div>
+          <div id="about-content-right">
+            <p>
+              I'm Somya Gangwar, a B.Tech student in Electronics and Communication Engineering at IIIT Bhagalpur (Batch of 2026).A passinate frontend developer driven by the desire to create captivating and user-friendly web experiences. I believe that great design and functionality go hand-in-hand, and I'm always striving to build websites and applications that are both visually engaging and highly intuitive.
+            </p>
+            <p>
+                Beyond frontend development, I'm an avid competitive programmer who enjoys the challenge of solving complex problems through code. I've honed my problem-solving skills and deepened my understanding of algorithms and data structures through C++ programming, which I find to be a powerful and efficient language.
+            </p>
+            <div class="button resume-button">
+              <a href="./somya.pdf" download=""
+                >Resume <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="skill-page" class="page">
+        <div class="circle skill-circle"></div>
+        <h1 class="page-heading skill-heading">What I Know.</h1>
+        <div id="skill-content">
+          <div id="skill-card-container">
+            <div class="skill-card">
+              <h3>Frontend</h3>
+              <div class="brick-container">
+                <div class="bricks">HTML</div>
+                <div class="bricks">Tailwind css</div>
+                <div class="bricks">JavaScript</div>
+                <div class="bricks">ReactJS</div>
+                <div class="bricks">CSS</div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>Backend</h3>
+              <div class="brick-container">
+                <div class="bricks">ExpressJS</div>
+                <div class="bricks">NodeJS</div>
+                <div class="bricks">Firebase</div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>Desigh & Other</h3>
+              <div class="brick-container">
+                <div class="bricks">Git</div>
+                <div class="bricks">Figma</div>
+                <div class="bricks">C++</div>
+                <div class="bricks">Python(Basics)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="project-page" class="page">
+        <h1 class="page-heading project-heading">My Projects.</h1>
+        <div id="project-card-container">
+          <div class="project-card">
+            <img src="images/project-1.webp" alt="" />
+            <div class="card-content">
+             
+              
+              <div class="project-links">
+                <div class="button project-button">
+                  <a
+                    href="https://github.com/gangwarsomya/Gallery"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Github</a
+                  >
+                </div>
+                <div class="button project-button view-button">
+                  <a href="https://gangwarsomya.github.io/Gallery/">View Live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="transparent-page"></div>
+    </div>
+    <div id="contact-page" class="page">
+      <div class="circle contact-circle"></div>
+      <p class="contact-subheading">Got a project? Want to hire me?</p>
+      <h1>GET IN TOUCH.</h1>
+      <footer>
+        <div class="footer-navigation">
+          <h4>Navigation</h4>
+          <ul class="nav footer-nav-links">
+            <li><h6 class="scrollTo-home">Home</h6></li>
+            <li><h6 class="scrollTo-about">About</h6></li>
+            <li><h6 class="scrollTo-skill">What I Know</h6></li>
+            <li><h6 class="scrollTo-projects">Projects</h6></li>
+            <li><a href="./somya.pdf" download>Resume</a></li>
+          </ul>
+        </div>
+        <div class="footer-navigation">
+          <h4>Socials</h4>
+          <ul class="nav footer-social-links">
+            <li>
+              <a href="https://www.linkedin.com/in/somya-gangwar-191159200/" target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/gangwarsomya" target="_blank"
+                >Github</a
+              >
+            </li>
+            
+            <li>
+              <a href="https://www.codechef.com/users/somya_g" target="_blank"
+                >Codechef</a
+              >
+            </li>
+            <li>
+              <a href="https://leetcode.com/u/somya_16/" target="_blank"
+                >LeetCode</a
+              >
+            </li>
+            <li><a href="mailto:gangwarsomya16@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </footer>
+      <p id="copyright">gangwarsomya16@gmail.com © 2024 All rights reserved.</p>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
